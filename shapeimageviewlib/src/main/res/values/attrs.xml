@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeImageView">
+        <!--形状-->
+        <attr name="shape" format="enum">
+            <enum name="circle" value="0" />            <!-- 圆形 -->
+            <enum name="round_rectangle" value="1" />   <!-- 圆角矩形 -->
+        </attr>
+
+        <attr name="borderColor" format="color" />      <!-- 边框颜色 -->
+        <attr name="borderWidth" format="dimension" />  <!-- 边框宽度 -->
+        <attr name="borderRadius" format="dimension" /> <!-- 圆角矩形圆角半径-->
+        <attr name="pressedColor" format="color" />     <!-- 按下蒙版颜色 -->
+
+    </declare-styleable>
+
+
+</resources>

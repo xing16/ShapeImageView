@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75daa8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.xing.shapeimageview.MainActivity">
+
+    <com.xing.shapeimageviewlib.ShapeImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/e" />
+
+    <com.xing.shapeimageviewlib.ShapeImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/e"
+        app:borderColor="@android:color/white"
+        app:borderWidth="1dp"
+        app:shape="circle" />
+
+
+    <com.xing.shapeimageviewlib.ShapeImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/e"
+        app:borderColor="@android:color/white"
+        app:borderWidth="2dp"
+        app:shape="round_rectangle" />
+
+
+</LinearLayout>
